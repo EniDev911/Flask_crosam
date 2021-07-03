@@ -7,6 +7,7 @@ main = Blueprint('main', __name__)
 @main.route('/')
 def index():
 	print("ending")
+	print("change")
 	return render_template('index.html')
 
 @main.route('/profile')
